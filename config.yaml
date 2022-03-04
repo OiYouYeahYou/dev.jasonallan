@@ -1,0 +1,59 @@
+baseURL: https://jasonallan.dev/
+languageCode: en-gb
+title: Jason Allan
+theme: colordrop
+
+author:
+  name: Author Name
+  job: Developer
+  image: profile.png
+  github: github
+  twitter: twitter
+  linkedin: linkedin
+
+taxonomies:
+  tag: tags
+
+menu:
+  main:
+    # - identifier: blog
+    #   name: Blog
+    #   url: blog/
+    #   weight: 2
+    # - identifier: tags
+    #   name: Tags
+    #   url: tags/
+    #   weight: 3
+    - identifier: portfolio
+      name: Portfolio
+      url: https://portfolio.jasonallan.dev
+      weight: 5
+
+  # Github, Twitter, Stackoverflow, Matodon, Email
+  footer:
+    - identifier: github
+      name: github
+      url: "https://github.com/OiYouYeahYou"
+      weight: 1
+    - identifier: twitter
+      name: twitter
+      url: "https://twitter.com/OiYouYeahYou"
+      weight: 2
+    - identifier: stackoverflow
+      name: website
+      url: "https://stackoverflow.com/story/oiyouyeahyou"
+      weight: 3
+    - identifier: mastodon
+      name: mastodon
+      url: "https://mastodon.social/@oiyouyeahyou"
+      weight: 4
+    - identifier: contact
+      name: email
+      url: "https://mastodon.social/@oiyouyeahyou"
+      weight: 5
+
+params:
+  description: Just your friendly internet developer
+  siteLogo: quokka.png
+  themeColor: "#000000"
+  themeInverseColor: "#ffffff"
