@@ -1,10 +1,4 @@
 import { SquareArrowOutUpRight } from "lucide-react"
-import quokka from "../public/quokka.png"
-import {
-	SiGithub,
-	SiMastodon,
-	SiStackoverflow,
-} from "@icons-pack/react-simple-icons"
 
 function App() {
 	return (
@@ -45,7 +39,7 @@ function Top() {
 						w-64 max-md:w-32
 						border-solid border-white border-[12px] rounded-full
 					"
-						src={quokka}
+					src="/quokka.png"
 						alt="A happy cartoon quokka used as an avatar"
 					/>
 				</div>
