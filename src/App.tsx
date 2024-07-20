@@ -36,7 +36,8 @@ function Top() {
 			">
 					<img
 					className="
-						w-64 max-md:w-32
+						w-64 h-64
+						max-md:w-32 max-md:h-32
 						border-solid border-white border-[12px] rounded-full
 					"
 					src="/quokka.png"
